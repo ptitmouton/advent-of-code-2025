@@ -6,6 +6,7 @@ import day4
 import day5
 import day6
 import day7
+import day8
 import gleeunit
 
 pub fn main() -> Nil {
@@ -66,4 +67,12 @@ pub fn day7_part1_test() {
 
 pub fn day7_part2_test() {
   aoc.assert_result(day: 7, expectation: "40", runner: day7.part2)
+}
+
+pub fn day8_part1_test() {
+  aoc.assert_result(day: 8, expectation: "40", runner: day8.part1)
+}
+
+pub fn day8_part2_test() {
+  aoc.assert_result(day: 8, expectation: "25272", runner: day8.part2)
 }
