@@ -6,6 +6,7 @@ import day5
 import day6
 import day7
 import day8
+import day9
 
 pub fn main() {
   let _ = day1.run()
@@ -16,4 +17,5 @@ pub fn main() {
   let _ = day6.run()
   let _ = day7.run()
   let _ = day8.run()
+  let _ = day9.run()
 }
