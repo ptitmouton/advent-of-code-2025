@@ -1,5 +1,6 @@
 import aoc
 import day1
+import day10
 import day2
 import day3
 import day4
@@ -84,4 +85,12 @@ pub fn day9_part1_test() {
 
 pub fn day9_part2_test() {
   aoc.assert_result(day: 9, expectation: "24", runner: day9.part2)
+}
+
+pub fn day10_part1_test() {
+  aoc.assert_result(day: 10, expectation: "7", runner: day10.part1)
+}
+
+pub fn day10_part2_test() {
+  aoc.assert_result(day: 10, expectation: "33", runner: day10.part2)
 }
