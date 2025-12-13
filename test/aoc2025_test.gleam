@@ -1,6 +1,7 @@
 import aoc
 import day1
 import day10
+import day11
 import day2
 import day3
 import day4
@@ -94,3 +95,12 @@ pub fn day10_part1_test() {
 pub fn day10_part2_test() {
   aoc.assert_result(day: 10, expectation: "33", runner: day10.part2)
 }
+
+pub fn day11_part1_test() {
+  aoc.assert_result(day: 11, expectation: "5", runner: day11.part1)
+}
+// day11 part2 is not really well testable in this context as its test input
+// not the same
+// pub fn day11_part2_test() {
+//   aoc.assert_result(day: 11, expectation: "2", runner: day11.part2)
+// }
